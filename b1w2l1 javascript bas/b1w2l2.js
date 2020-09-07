@@ -5,6 +5,8 @@ opleiding: Software Developer
 */
 const vraag = "you have to answer 3 questions in a moment"
 
+alert(vraag);
+
 if (vraag != null) { //deze funtie zorgt ervoor dat het element met het id tussen "...." verandert in de tekst eronder. 
   document.getElementById("vraag").innerHTML =
   vraag;
