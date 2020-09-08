@@ -24,6 +24,31 @@ if (antwoord1 != null) { //deze funtie zorgt ervoor dat het element met het id t
 
 }
 
+function TableOf62() {
+
+  var getal1 = 6;
+  var getal2;
+  
+  var getal2 = prompt("Please enter a value", "1"); //met een popup vragen naar een cijfer
+  
+  for (var i = 0; i < getal2; i ++) {
+    var antwoord1 = getal1 * i;
+  
+    if (antwoord1 != null) { //deze funtie zorgt ervoor dat het element met het id tussen "...." verandert in de tekst eronder. 
+      document.getElementById("antwoord4").innerHTML +=
+      "the answer, " + antwoord1 + " = " + getal1 + " * " + i + '<br>';
+    }
+  }
+  
+  var antwoord1 = getal1 * getal2;
+  
+  if (antwoord1 != null) { //deze funtie zorgt ervoor dat het element met het id tussen "...." verandert in de tekst eronder. 
+    document.getElementById("antwoord1").innerHTML =
+    "the answer, " + antwoord1 + " = " + getal1 + " * " + getal2;
+  }
+  
+}
+
 function TableOf3() {
   
 var getal1 = 3;
@@ -43,6 +68,31 @@ if (antwoord1 != null) { //deze funtie zorgt ervoor dat het element met het id t
   "the answer, " + antwoord1 + " = " + getal1 + " * " + getal2;
 }
 
+}
+
+function TableOf32() {
+
+  var getal1 = 3;
+  var getal2;
+  
+  var getal2 = prompt("Please enter a value", "1"); //met een popup vragen naar een cijfer
+  
+  for (var i = 0; i < getal2; i ++) {
+    var antwoord1 = getal1 * i;
+  
+    if (antwoord1 != null) { //deze funtie zorgt ervoor dat het element met het id tussen "...." verandert in de tekst eronder. 
+      document.getElementById("antwoord5").innerHTML +=
+      "the answer, " + antwoord1 + " = " + getal1 + " * " + i + '<br>';
+    }
+  }
+  
+  var antwoord1 = getal1 * getal2;
+  
+  if (antwoord1 != null) { //deze funtie zorgt ervoor dat het element met het id tussen "...." verandert in de tekst eronder. 
+    document.getElementById("antwoord1").innerHTML =
+    "the answer, " + antwoord1 + " = " + getal1 + " * " + getal2;
+  }
+  
 }
 
 function calculation1() {
